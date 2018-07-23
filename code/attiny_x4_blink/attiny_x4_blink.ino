@@ -1,13 +1,14 @@
-// Trivial program to test the ATtinyX5.
+// Trivial program to test the ATtinyX4.
 //
 // Toggles LED on and off for a fixed period of time.
 //  Typical blink sketch.
 
 
-#define led 0
+#define led 5
 
 void setup() {
-  // Initialize ATtinyX5 digital pin 5 as an output.
+  // Initialize ATtinyX4 digital physical pin 8
+  //	(programming pin 5) as an output.
   pinMode(led, OUTPUT);
 }
 
