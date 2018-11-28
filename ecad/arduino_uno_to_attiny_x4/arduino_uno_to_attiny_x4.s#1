@@ -638,37 +638,6 @@
 <text x="0" y="10.4775" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-10.4775" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="DIP794W46P254L1919H533Q14B" urn="urn:adsk.eagle:footprint:3660579/1">
-<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 19.19 X 6.605 X 5.33 mm body
-&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 19.19 X 6.605 X 5.33 mm&lt;/p&gt;</description>
-<circle x="-4.1318" y="8.8625" radius="0.25" width="0" layer="21"/>
-<wire x1="-3.555" y1="8.6125" x2="-3.555" y2="9.84" width="0.12" layer="21"/>
-<wire x1="-3.555" y1="9.84" x2="3.555" y2="9.84" width="0.12" layer="21"/>
-<wire x1="3.555" y1="9.84" x2="3.555" y2="8.6125" width="0.12" layer="21"/>
-<wire x1="-3.555" y1="-8.6125" x2="-3.555" y2="-9.84" width="0.12" layer="21"/>
-<wire x1="-3.555" y1="-9.84" x2="3.555" y2="-9.84" width="0.12" layer="21"/>
-<wire x1="3.555" y1="-9.84" x2="3.555" y2="-8.6125" width="0.12" layer="21"/>
-<wire x1="3.555" y1="-9.84" x2="-3.555" y2="-9.84" width="0.12" layer="51"/>
-<wire x1="-3.555" y1="-9.84" x2="-3.555" y2="9.84" width="0.12" layer="51"/>
-<wire x1="-3.555" y1="9.84" x2="3.555" y2="9.84" width="0.12" layer="51"/>
-<wire x1="3.555" y1="9.84" x2="3.555" y2="-9.84" width="0.12" layer="51"/>
-<pad name="1" x="-3.97" y="7.62" drill="0.7385" diameter="1.477"/>
-<pad name="2" x="-3.97" y="5.08" drill="0.7385" diameter="1.477"/>
-<pad name="3" x="-3.97" y="2.54" drill="0.7385" diameter="1.477"/>
-<pad name="4" x="-3.97" y="0" drill="0.7385" diameter="1.477"/>
-<pad name="5" x="-3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
-<pad name="6" x="-3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
-<pad name="7" x="-3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
-<pad name="8" x="3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
-<pad name="9" x="3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
-<pad name="10" x="3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
-<pad name="11" x="3.97" y="0" drill="0.7385" diameter="1.477"/>
-<pad name="12" x="3.97" y="2.54" drill="0.7385" diameter="1.477"/>
-<pad name="13" x="3.97" y="5.08" drill="0.7385" diameter="1.477"/>
-<pad name="14" x="3.97" y="7.62" drill="0.7385" diameter="1.477"/>
-<text x="0" y="10.475" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.475" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 <package name="DIP794W46P254L1919H533Q14B_DIP-14_CONNECTOR" urn="urn:adsk.eagle:footprint:3660579/1" locally_modified="yes">
 <description>14-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 19.19 X 6.605 X 5.33 mm body
 &lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 19.19 X 6.605 X 5.33 mm&lt;/p&gt;</description>
@@ -707,6 +676,37 @@
 <wire x1="-5.3" y1="-9.1" x2="5.3" y2="-9.1" width="0.127" layer="39"/>
 <wire x1="5.3" y1="-9.1" x2="5.3" y2="9.1" width="0.127" layer="39"/>
 <wire x1="5.3" y1="9.1" x2="-5.3" y2="9.1" width="0.127" layer="39"/>
+</package>
+<package name="DIP794W46P254L1919H533Q14B" urn="urn:adsk.eagle:footprint:3660579/1">
+<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 19.19 X 6.605 X 5.33 mm body
+&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 19.19 X 6.605 X 5.33 mm&lt;/p&gt;</description>
+<circle x="-4.1318" y="8.8625" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.555" y1="8.6125" x2="-3.555" y2="9.84" width="0.12" layer="21"/>
+<wire x1="-3.555" y1="9.84" x2="3.555" y2="9.84" width="0.12" layer="21"/>
+<wire x1="3.555" y1="9.84" x2="3.555" y2="8.6125" width="0.12" layer="21"/>
+<wire x1="-3.555" y1="-8.6125" x2="-3.555" y2="-9.84" width="0.12" layer="21"/>
+<wire x1="-3.555" y1="-9.84" x2="3.555" y2="-9.84" width="0.12" layer="21"/>
+<wire x1="3.555" y1="-9.84" x2="3.555" y2="-8.6125" width="0.12" layer="21"/>
+<wire x1="3.555" y1="-9.84" x2="-3.555" y2="-9.84" width="0.12" layer="51"/>
+<wire x1="-3.555" y1="-9.84" x2="-3.555" y2="9.84" width="0.12" layer="51"/>
+<wire x1="-3.555" y1="9.84" x2="3.555" y2="9.84" width="0.12" layer="51"/>
+<wire x1="3.555" y1="9.84" x2="3.555" y2="-9.84" width="0.12" layer="51"/>
+<pad name="1" x="-3.97" y="7.62" drill="0.7385" diameter="1.477"/>
+<pad name="2" x="-3.97" y="5.08" drill="0.7385" diameter="1.477"/>
+<pad name="3" x="-3.97" y="2.54" drill="0.7385" diameter="1.477"/>
+<pad name="4" x="-3.97" y="0" drill="0.7385" diameter="1.477"/>
+<pad name="5" x="-3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
+<pad name="6" x="-3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
+<pad name="7" x="-3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
+<pad name="8" x="3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
+<pad name="9" x="3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
+<pad name="10" x="3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
+<pad name="11" x="3.97" y="0" drill="0.7385" diameter="1.477"/>
+<pad name="12" x="3.97" y="2.54" drill="0.7385" diameter="1.477"/>
+<pad name="13" x="3.97" y="5.08" drill="0.7385" diameter="1.477"/>
+<pad name="14" x="3.97" y="7.62" drill="0.7385" diameter="1.477"/>
+<text x="0" y="10.475" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.475" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -949,7 +949,7 @@
 </instance>
 <instance part="SUPPLY5" gate="GND" x="7.62" y="40.64" smashed="yes"/>
 <instance part="MCU2" gate="G$1" x="111.76" y="35.56" smashed="yes">
-<attribute name="VALUE" x="111.76" y="17.272" size="1.27" layer="96" font="vector" ratio="10" align="top-center"/>
+<attribute name="VALUE" x="111.76" y="17.272" size="0.635" layer="96" font="vector" ratio="10" align="top-center"/>
 <attribute name="NAME" x="111.76" y="53.848" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center"/>
 </instance>
 </instances>

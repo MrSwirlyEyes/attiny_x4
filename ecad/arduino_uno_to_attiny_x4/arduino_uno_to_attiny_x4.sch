@@ -977,16 +977,16 @@
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="MCU1" gate="G$1" pin="5V"/>
-<wire x1="20.32" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="53.34" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="SUPPLY3" gate="3.3V" pin="3.3V"/>
-</segment>
-<segment>
 <wire x1="76.2" y1="50.8" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="50.8" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="3.3V" pin="3.3V"/>
 <pinref part="MCU2" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="3.3V" pin="3.3V"/>
+<pinref part="MCU1" gate="G$1" pin="3.3V"/>
+<wire x1="15.24" y1="60.96" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
