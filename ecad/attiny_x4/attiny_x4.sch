@@ -370,19 +370,19 @@
 <wire x1="33.02" y1="17.78" x2="-33.02" y2="17.78" width="0.254" layer="94"/>
 <pin name="VCC" x="-35.56" y="15.24" length="short" direction="pas"/>
 <pin name="GND" x="-35.56" y="-15.24" length="short" direction="pas"/>
-<pin name="(ADC0/AREF/PCINT0/D0-A0)PA0" x="35.56" y="15.24" length="short" rot="R180"/>
-<pin name="(ADC1/AIN0/PCINT1/D1-A1)PA1" x="35.56" y="12.7" length="short" rot="R180"/>
-<pin name="(ADC2/AIN1/PCINT2/D2-A2)PA2" x="35.56" y="10.16" length="short" rot="R180"/>
+<pin name="(ADC0/AREF/PCINT0/D10-A0)PA0" x="35.56" y="15.24" length="short" rot="R180"/>
+<pin name="(ADC1/AIN0/PCINT1/D9-A1)PA1" x="35.56" y="12.7" length="short" rot="R180"/>
+<pin name="(ADC2/AIN1/PCINT2/D8-A2)PA2" x="35.56" y="10.16" length="short" rot="R180"/>
 <pin name="(ADC3/T0/PCINT3/D7-A3)PA3" x="35.56" y="7.62" length="short" rot="R180"/>
-<pin name="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" x="35.56" y="5.08" length="short" rot="R180"/>
+<pin name="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" x="35.56" y="5.08" length="short" rot="R180"/>
 <pin name="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" x="35.56" y="2.54" length="short" rot="R180"/>
-<pin name="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" x="35.56" y="0" length="short" rot="R180"/>
-<pin name="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" x="35.56" y="-2.54" length="short" rot="R180"/>
-<pin name="(PCINT8/XTAL1/CLKI/D10)PB0" x="35.56" y="-7.62" length="short" rot="R180"/>
-<pin name="(PCINT9/XTAL2/D9)PB1" x="35.56" y="-10.16" length="short" rot="R180"/>
-<pin name="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" x="35.56" y="-12.7" length="short" rot="R180"/>
+<pin name="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" x="35.56" y="0" length="short" rot="R180"/>
+<pin name="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" x="35.56" y="-2.54" length="short" rot="R180"/>
+<pin name="(PCINT8/XTAL1/CLKI/D0)PB0" x="35.56" y="-7.62" length="short" rot="R180"/>
+<pin name="(PCINT9/XTAL2/D1)PB1" x="35.56" y="-10.16" length="short" rot="R180"/>
+<pin name="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" x="35.56" y="-12.7" length="short" rot="R180"/>
 <pin name="(PCINT11/!RESET!/DW/D11)PB3" x="35.56" y="-15.24" length="short" rot="R180"/>
-<text x="0" y="-18.288" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="-18.288" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <text x="0" y="18.288" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 </symbol>
 </symbols>
@@ -394,18 +394,18 @@
 <devices>
 <device name="_SOIC-14" package="SOIC127P599X175-14_SOIC-14">
 <connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D0-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D1-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D2-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
 <connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
 <connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
 <connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D10)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D9)PB1" pad="3"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
 <connect gate="G$1" pin="GND" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
@@ -426,18 +426,18 @@
 </device>
 <device name="_SOIC-14_NO_SILK" package="SOIC127P599X175-14_SOIC-14_NO-SILK">
 <connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D0-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D1-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D2-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
 <connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
 <connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
 <connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D10)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D9)PB1" pad="3"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
 <connect gate="G$1" pin="GND" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
@@ -458,18 +458,18 @@
 </device>
 <device name="_DIP-14_ATTINY-84" package="DIP793W45P254L1919H533Q14B_DIP-14_ATTINY-X4">
 <connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D0-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D1-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D2-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
 <connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
 <connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
 <connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D10)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D9)PB1" pad="3"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
 <connect gate="G$1" pin="GND" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
@@ -490,18 +490,18 @@
 </device>
 <device name="_DIP-14_ATTINY-84_CONNECTOR" package="DIP794W46P254L1919H533Q14B_DIP-14_CONNECTOR">
 <connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D0-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D1-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D2-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
 <connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
 <connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
 <connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D10)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D9)PB1" pad="3"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
 <connect gate="G$1" pin="GND" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
@@ -548,7 +548,7 @@
 </plain>
 <instances>
 <instance part="MCU1" gate="G$1" x="50.8" y="30.48" smashed="yes">
-<attribute name="VALUE" x="50.8" y="12.192" size="1.27" layer="96" font="vector" ratio="10" align="top-center"/>
+<attribute name="VALUE" x="50.8" y="12.192" size="0.635" layer="96" font="vector" ratio="10" align="top-center"/>
 <attribute name="NAME" x="50.8" y="48.768" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center"/>
 </instance>
 </instances>
