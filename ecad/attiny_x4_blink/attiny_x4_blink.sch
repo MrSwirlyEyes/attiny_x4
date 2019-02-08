@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -166,10 +166,388 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="PiB_power_symbols">
+<library name="_ic_microcontrollers">
+<packages>
+<package name="DIP794W46P254L1919H533Q14B_DIP-14_CONNECTOR" urn="urn:adsk.eagle:footprint:3660579/1" locally_modified="yes">
+<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 19.19 X 6.605 X 5.33 mm body
+&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 19.19 X 6.605 X 5.33 mm&lt;/p&gt;</description>
+<circle x="-3.8" y="10.1" radius="0.5" width="0" layer="21"/>
+<wire x1="3.555" y1="-9.84" x2="-3.555" y2="-9.84" width="0.12" layer="51"/>
+<wire x1="-3.555" y1="-9.84" x2="-3.555" y2="9.84" width="0.12" layer="51"/>
+<wire x1="-3.555" y1="9.84" x2="-1" y2="9.84" width="0.12" layer="51"/>
+<wire x1="1" y1="9.84" x2="3.555" y2="9.84" width="0.12" layer="51"/>
+<wire x1="3.555" y1="9.84" x2="3.555" y2="-9.84" width="0.12" layer="51"/>
+<pad name="1" x="-3.97" y="7.62" drill="0.7385" diameter="1.477"/>
+<pad name="2" x="-3.97" y="5.08" drill="0.7385" diameter="1.477"/>
+<pad name="3" x="-3.97" y="2.54" drill="0.7385" diameter="1.477"/>
+<pad name="4" x="-3.97" y="0" drill="0.7385" diameter="1.477"/>
+<pad name="5" x="-3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
+<pad name="6" x="-3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
+<pad name="7" x="-3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
+<pad name="8" x="3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
+<pad name="9" x="3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
+<pad name="10" x="3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
+<pad name="11" x="3.97" y="0" drill="0.7385" diameter="1.477"/>
+<pad name="12" x="3.97" y="2.54" drill="0.7385" diameter="1.477"/>
+<pad name="13" x="3.97" y="5.08" drill="0.7385" diameter="1.477"/>
+<pad name="14" x="3.97" y="7.62" drill="0.7385" diameter="1.477"/>
+<text x="0" y="9.184" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.2" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-5.08" y1="8.89" x2="-5.08" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-8.89" x2="5.08" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-8.89" x2="5.08" y2="8.89" width="0.127" layer="21"/>
+<wire x1="5.08" y1="8.89" x2="1" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-1" y1="8.89" x2="-5.08" y2="8.89" width="0.127" layer="21"/>
+<wire x1="0" y1="8" x2="-1" y2="8.89" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="8" x2="1" y2="8.89" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="9" x2="-1" y2="9.84" width="0.12" layer="51" curve="-90"/>
+<wire x1="0" y1="9" x2="1" y2="9.84" width="0.12" layer="51" curve="90"/>
+<wire x1="-5.3" y1="9.1" x2="-5.3" y2="-9.1" width="0.127" layer="39"/>
+<wire x1="-5.3" y1="-9.1" x2="5.3" y2="-9.1" width="0.127" layer="39"/>
+<wire x1="5.3" y1="-9.1" x2="5.3" y2="9.1" width="0.127" layer="39"/>
+<wire x1="5.3" y1="9.1" x2="-5.3" y2="9.1" width="0.127" layer="39"/>
+<wire x1="-4.9" y1="-8.6" x2="-3" y2="-8.6" width="0.127" layer="40"/>
+<wire x1="-3" y1="-8.6" x2="-3" y2="8.6" width="0.127" layer="40"/>
+<wire x1="-3" y1="8.6" x2="-4.9" y2="8.6" width="0.127" layer="40"/>
+<wire x1="-4.9" y1="8.6" x2="-4.9" y2="-8.6" width="0.127" layer="40"/>
+<wire x1="3" y1="-8.6" x2="4.9" y2="-8.6" width="0.127" layer="40"/>
+<wire x1="4.9" y1="-8.6" x2="4.9" y2="8.6" width="0.127" layer="40"/>
+<wire x1="4.9" y1="8.6" x2="3" y2="8.6" width="0.127" layer="40"/>
+<wire x1="3" y1="8.6" x2="3" y2="-8.6" width="0.127" layer="40"/>
+</package>
+<package name="DIP794W46P254L1919H533Q14B" urn="urn:adsk.eagle:footprint:3660579/1">
+<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 19.19 X 6.605 X 5.33 mm body
+&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 19.19 X 6.605 X 5.33 mm&lt;/p&gt;</description>
+<circle x="-4.1318" y="8.8625" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.555" y1="8.6125" x2="-3.555" y2="9.84" width="0.12" layer="21"/>
+<wire x1="-3.555" y1="9.84" x2="3.555" y2="9.84" width="0.12" layer="21"/>
+<wire x1="3.555" y1="9.84" x2="3.555" y2="8.6125" width="0.12" layer="21"/>
+<wire x1="-3.555" y1="-8.6125" x2="-3.555" y2="-9.84" width="0.12" layer="21"/>
+<wire x1="-3.555" y1="-9.84" x2="3.555" y2="-9.84" width="0.12" layer="21"/>
+<wire x1="3.555" y1="-9.84" x2="3.555" y2="-8.6125" width="0.12" layer="21"/>
+<wire x1="3.555" y1="-9.84" x2="-3.555" y2="-9.84" width="0.12" layer="51"/>
+<wire x1="-3.555" y1="-9.84" x2="-3.555" y2="9.84" width="0.12" layer="51"/>
+<wire x1="-3.555" y1="9.84" x2="3.555" y2="9.84" width="0.12" layer="51"/>
+<wire x1="3.555" y1="9.84" x2="3.555" y2="-9.84" width="0.12" layer="51"/>
+<pad name="1" x="-3.97" y="7.62" drill="0.7385" diameter="1.477"/>
+<pad name="2" x="-3.97" y="5.08" drill="0.7385" diameter="1.477"/>
+<pad name="3" x="-3.97" y="2.54" drill="0.7385" diameter="1.477"/>
+<pad name="4" x="-3.97" y="0" drill="0.7385" diameter="1.477"/>
+<pad name="5" x="-3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
+<pad name="6" x="-3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
+<pad name="7" x="-3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
+<pad name="8" x="3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
+<pad name="9" x="3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
+<pad name="10" x="3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
+<pad name="11" x="3.97" y="0" drill="0.7385" diameter="1.477"/>
+<pad name="12" x="3.97" y="2.54" drill="0.7385" diameter="1.477"/>
+<pad name="13" x="3.97" y="5.08" drill="0.7385" diameter="1.477"/>
+<pad name="14" x="3.97" y="7.62" drill="0.7385" diameter="1.477"/>
+<text x="0" y="10.475" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.475" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOIC127P599X175-14_SOIC-14" urn="urn:adsk.eagle:footprint:2966437/2">
+<description>14-SOIC, 1.27 mm pitch, 5.995 mm span, 8.645 X 3.895 X 1.75 mm body
+&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 5.995 mm span with body size 8.645 X 3.895 X 1.75 mm&lt;/p&gt;</description>
+<circle x="-2.7239" y="4.4357" radius="0.075" width="0" layer="21"/>
+<wire x1="-1.995" y1="4.4207" x2="1.995" y2="4.4207" width="0.12" layer="21"/>
+<wire x1="-1.995" y1="-4.4207" x2="1.995" y2="-4.4207" width="0.12" layer="21"/>
+<wire x1="1.995" y1="-4.37" x2="-1.995" y2="-4.37" width="0.12" layer="51"/>
+<wire x1="-1.995" y1="-4.37" x2="-1.995" y2="4.37" width="0.12" layer="51"/>
+<wire x1="-1.995" y1="4.37" x2="1.995" y2="4.37" width="0.12" layer="51"/>
+<wire x1="1.995" y1="4.37" x2="1.995" y2="-4.37" width="0.12" layer="51"/>
+<wire x1="-3.9" y1="-4.6" x2="3.9" y2="-4.6" width="0.127" layer="39"/>
+<wire x1="3.9" y1="-4.6" x2="3.9" y2="4.6" width="0.127" layer="39"/>
+<wire x1="3.9" y1="4.6" x2="-3.9" y2="4.6" width="0.127" layer="39"/>
+<wire x1="-3.9" y1="4.6" x2="-3.9" y2="-4.6" width="0.127" layer="39"/>
+<smd name="1" x="-2.4693" y="3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="2" x="-2.4693" y="2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="3" x="-2.4693" y="1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="4" x="-2.4693" y="0" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="5" x="-2.4693" y="-1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="6" x="-2.4693" y="-2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="7" x="-2.4693" y="-3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="8" x="2.4693" y="-3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="9" x="2.4693" y="-2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="10" x="2.4693" y="-1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="11" x="2.4693" y="0" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="12" x="2.4693" y="1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="13" x="2.4693" y="2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="14" x="2.4693" y="3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<text x="0" y="5.1457" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.0557" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOIC127P599X175-14_SOIC-14_NO-SILK" urn="urn:adsk.eagle:footprint:2967724/2">
+<description>14-SOIC, 1.27 mm pitch, 5.995 mm span, 8.645 X 3.895 X 1.75 mm body
+&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 5.995 mm span with body size 8.645 X 3.895 X 1.75 mm&lt;/p&gt;</description>
+<circle x="-2.7239" y="4.4357" radius="0.075" width="0" layer="21"/>
+<wire x1="-1.995" y1="4.4207" x2="1.995" y2="4.4207" width="0.12" layer="51"/>
+<wire x1="-1.995" y1="-4.4207" x2="1.995" y2="-4.4207" width="0.12" layer="51"/>
+<wire x1="1.995" y1="-4.37" x2="-1.995" y2="-4.37" width="0.12" layer="51"/>
+<wire x1="-1.995" y1="-4.37" x2="-1.995" y2="4.37" width="0.12" layer="51"/>
+<wire x1="-1.995" y1="4.37" x2="1.995" y2="4.37" width="0.12" layer="51"/>
+<wire x1="1.995" y1="4.37" x2="1.995" y2="-4.37" width="0.12" layer="51"/>
+<wire x1="-3.9" y1="4.55" x2="-3.9" y2="-4.55" width="0.127" layer="39"/>
+<wire x1="-3.9" y1="-4.55" x2="3.9" y2="-4.55" width="0.127" layer="39"/>
+<wire x1="3.9" y1="-4.55" x2="3.9" y2="4.55" width="0.127" layer="39"/>
+<wire x1="3.9" y1="4.55" x2="-3.9" y2="4.55" width="0.127" layer="39"/>
+<smd name="1" x="-2.4693" y="3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="2" x="-2.4693" y="2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="3" x="-2.4693" y="1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="4" x="-2.4693" y="0" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="5" x="-2.4693" y="-1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="6" x="-2.4693" y="-2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="7" x="-2.4693" y="-3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="8" x="2.4693" y="-3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="9" x="2.4693" y="-2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="10" x="2.4693" y="-1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="11" x="2.4693" y="0" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="12" x="2.4693" y="1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="13" x="2.4693" y="2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<smd name="14" x="2.4693" y="3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
+<text x="0" y="5.1457" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.0557" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIP793W45P254L1919H533Q14B_DIP-14_ATTINY-X4" urn="urn:adsk.eagle:footprint:3660576/1" locally_modified="yes">
+<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.9375 mm (0.31 in) span, 19.192 X 6.604 X 5.334 mm body
+&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.9375 mm (0.31 in) span with body size 19.192 X 6.604 X 5.334 mm&lt;/p&gt;</description>
+<circle x="-4.1304" y="8.8601" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.556" y1="8.6101" x2="-3.556" y2="9.8425" width="0.12" layer="21"/>
+<wire x1="-3.556" y1="9.8425" x2="3.556" y2="9.8425" width="0.12" layer="21"/>
+<wire x1="3.556" y1="9.8425" x2="3.556" y2="8.6101" width="0.12" layer="21"/>
+<wire x1="-3.556" y1="-8.6101" x2="-3.556" y2="-9.8425" width="0.12" layer="21"/>
+<wire x1="-3.556" y1="-9.8425" x2="3.556" y2="-9.8425" width="0.12" layer="21"/>
+<wire x1="3.556" y1="-9.8425" x2="3.556" y2="-8.6101" width="0.12" layer="21"/>
+<wire x1="3.556" y1="-9.8425" x2="-3.556" y2="-9.8425" width="0.12" layer="51"/>
+<wire x1="-3.556" y1="-9.8425" x2="-3.556" y2="9.8425" width="0.12" layer="51"/>
+<wire x1="-3.556" y1="9.8425" x2="3.556" y2="9.8425" width="0.12" layer="51"/>
+<wire x1="3.556" y1="9.8425" x2="3.556" y2="-9.8425" width="0.12" layer="51"/>
+<pad name="1" x="-3.9688" y="7.62" drill="0.7361" diameter="1.4722"/>
+<pad name="2" x="-3.9688" y="5.08" drill="0.7361" diameter="1.4722"/>
+<pad name="3" x="-3.9688" y="2.54" drill="0.7361" diameter="1.4722"/>
+<pad name="4" x="-3.9688" y="0" drill="0.7361" diameter="1.4722"/>
+<pad name="5" x="-3.9688" y="-2.54" drill="0.7361" diameter="1.4722"/>
+<pad name="6" x="-3.9688" y="-5.08" drill="0.7361" diameter="1.4722"/>
+<pad name="7" x="-3.9688" y="-7.62" drill="0.7361" diameter="1.4722"/>
+<pad name="8" x="3.9688" y="-7.62" drill="0.7361" diameter="1.4722"/>
+<pad name="9" x="3.9688" y="-5.08" drill="0.7361" diameter="1.4722"/>
+<pad name="10" x="3.9688" y="-2.54" drill="0.7361" diameter="1.4722"/>
+<pad name="11" x="3.9688" y="0" drill="0.7361" diameter="1.4722"/>
+<pad name="12" x="3.9688" y="2.54" drill="0.7361" diameter="1.4722"/>
+<pad name="13" x="3.9688" y="5.08" drill="0.7361" diameter="1.4722"/>
+<pad name="14" x="3.9688" y="7.62" drill="0.7361" diameter="1.4722"/>
+<text x="0" y="10.4775" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.4775" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="DIP794W46P254L1919H533Q14B" urn="urn:adsk.eagle:package:3660578/2" locally_modified="yes" type="model">
+<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 19.19 X 6.605 X 5.33 mm body
+&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 19.19 X 6.605 X 5.33 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP794W46P254L1919H533Q14B"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P599X175-14" urn="urn:adsk.eagle:package:2966431/1" locally_modified="yes" type="model">
+<description>14-SOIC, 1.27 mm pitch, 5.995 mm span, 8.645 X 3.895 X 1.75 mm body
+&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 5.995 mm span with body size 8.645 X 3.895 X 1.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P599X175-14_SOIC-14"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P599X175-14" urn="urn:adsk.eagle:package:2967721/1" locally_modified="yes" type="model">
+<description>14-SOIC, 1.27 mm pitch, 5.995 mm span, 8.645 X 3.895 X 1.75 mm body
+&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 5.995 mm span with body size 8.645 X 3.895 X 1.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P599X175-14_SOIC-14_NO-SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP793W45P254L1919H533Q14B" urn="urn:adsk.eagle:package:3660575/1" locally_modified="yes" type="model">
+<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.9375 mm (0.31 in) span, 19.192 X 6.604 X 5.334 mm body
+&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.9375 mm (0.31 in) span with body size 19.192 X 6.604 X 5.334 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP793W45P254L1919H533Q14B_DIP-14_ATTINY-X4"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="ATTINYX4">
+<wire x1="-33.02" y1="17.78" x2="-33.02" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-17.78" x2="33.02" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-17.78" x2="33.02" y2="17.78" width="0.254" layer="94"/>
+<wire x1="33.02" y1="17.78" x2="-33.02" y2="17.78" width="0.254" layer="94"/>
+<pin name="VCC" x="-35.56" y="15.24" length="short" direction="pas"/>
+<pin name="GND" x="-35.56" y="-15.24" length="short" direction="pas"/>
+<pin name="(ADC0/AREF/PCINT0/D10-A0)PA0" x="35.56" y="15.24" length="short" rot="R180"/>
+<pin name="(ADC1/AIN0/PCINT1/D9-A1)PA1" x="35.56" y="12.7" length="short" rot="R180"/>
+<pin name="(ADC2/AIN1/PCINT2/D8-A2)PA2" x="35.56" y="10.16" length="short" rot="R180"/>
+<pin name="(ADC3/T0/PCINT3/D7-A3)PA3" x="35.56" y="7.62" length="short" rot="R180"/>
+<pin name="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" x="35.56" y="5.08" length="short" rot="R180"/>
+<pin name="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" x="35.56" y="2.54" length="short" rot="R180"/>
+<pin name="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" x="35.56" y="0" length="short" rot="R180"/>
+<pin name="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" x="35.56" y="-2.54" length="short" rot="R180"/>
+<pin name="(PCINT8/XTAL1/CLKI/D0)PB0" x="35.56" y="-7.62" length="short" rot="R180"/>
+<pin name="(PCINT9/XTAL2/D1)PB1" x="35.56" y="-10.16" length="short" rot="R180"/>
+<pin name="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" x="35.56" y="-12.7" length="short" rot="R180"/>
+<pin name="(PCINT11/!RESET!/DW/D11)PB3" x="35.56" y="-15.24" length="short" rot="R180"/>
+<text x="0" y="-18.288" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="18.288" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ATTINY-X4" prefix="MCU" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="ATTINYX4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC-14" package="SOIC127P599X175-14_SOIC-14">
+<connects>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2966431/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY84A-SSU-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY84A-SSU-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATTINY84A-SSU" constant="no"/>
+<attribute name="VALUE" value="ATtiny84" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SOIC-14_NO_SILK" package="SOIC127P599X175-14_SOIC-14_NO-SILK">
+<connects>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2967721/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY84A-SSU-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY84A-SSU-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATTINY84A-SSU" constant="no"/>
+<attribute name="VALUE" value="ATtiny84" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DIP-14_ATTINY-84" package="DIP793W45P254L1919H533Q14B_DIP-14_ATTINY-X4">
+<connects>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3660575/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590190" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY84A-PU-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY84A-PU-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATTINY84A-PU" constant="no"/>
+<attribute name="VALUE" value="ATtiny84" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DIP-14_ATTINY-84_CONNECTOR" package="DIP794W46P254L1919H533Q14B_DIP-14_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3660578/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="ATTINY24A,44A,84A Complete" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY84A-PU-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=AE9989-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY84A-PU-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="AE9989-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
+<attribute name="MPN" value="ATTINY84A-PU" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="A 14-LC-TT" constant="no"/>
+<attribute name="VALUE" value="ATtiny84" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="_power_symbols">
 <packages>
 </packages>
 <symbols>
+<symbol name="3.3V">
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="0.8128" layer="96" font="vector" ratio="10" align="bottom-center">3.3V</text>
+</symbol>
 <symbol name="GND">
 <wire x1="-1.905" y1="0.254" x2="1.905" y2="0.254" width="0.254" layer="94"/>
 <pin name="GND" x="0" y="2.54" visible="off" length="point" direction="sup" rot="R270"/>
@@ -178,26 +556,8 @@
 <wire x1="-0.889" y1="-0.762" x2="0.889" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="0.254" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="3.3V">
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="0.8128" layer="96" font="vector" ratio="10" align="bottom-center">3.3V</text>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="GND" prefix="SUPPLY">
-<gates>
-<gate name="GND" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="3.3V" prefix="SUPPLY">
 <gates>
 <gate name="3.3V" symbol="3.3V" x="0" y="0"/>
@@ -210,9 +570,287 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="GND" prefix="SUPPLY">
+<gates>
+<gate name="GND" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
-<library name="PiB_leds">
+<library name="_resistors">
+<packages>
+<package name="RESAD660W45L340D190B" urn="urn:adsk.eagle:footprint:4254915/2">
+<description>AXIAL Resistor, 6.6 mm pitch, 3.4 mm body length, 1.9 mm body diameter
+&lt;p&gt;AXIAL Resistor package with 6.6 mm pitch, 0.45 mm lead diameter, 3.4 mm body length and 1.9 mm body diameter&lt;/p&gt;</description>
+<wire x1="-1.85" y1="1.05" x2="-1.85" y2="-1.05" width="0.12" layer="21"/>
+<wire x1="-1.85" y1="-1.05" x2="1.85" y2="-1.05" width="0.12" layer="21"/>
+<wire x1="1.85" y1="-1.05" x2="1.85" y2="1.05" width="0.12" layer="21"/>
+<wire x1="1.85" y1="1.05" x2="-1.85" y2="1.05" width="0.12" layer="21"/>
+<wire x1="-1.85" y1="0" x2="-2.421" y2="0" width="0.12" layer="21"/>
+<wire x1="1.85" y1="0" x2="2.421" y2="0" width="0.12" layer="21"/>
+<wire x1="1.85" y1="-1.05" x2="-1.85" y2="-1.05" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="-1.05" x2="-1.85" y2="1.05" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="1.05" x2="1.85" y2="1.05" width="0.12" layer="51"/>
+<wire x1="1.85" y1="1.05" x2="1.85" y2="-1.05" width="0.12" layer="51"/>
+<wire x1="-4.1" y1="-1.2" x2="-4.1" y2="1.2" width="0.127" layer="39"/>
+<wire x1="-4.1" y1="1.2" x2="4.1" y2="1.2" width="0.127" layer="39"/>
+<wire x1="4.1" y1="1.2" x2="4.1" y2="-1.2" width="0.127" layer="39"/>
+<wire x1="4.1" y1="-1.2" x2="-4.1" y2="-1.2" width="0.127" layer="39"/>
+<pad name="1" x="-3.3" y="0" drill="0.65" diameter="1.25"/>
+<pad name="2" x="3.3" y="0" drill="0.65" diameter="1.25"/>
+<text x="0" y="0.2" size="0.5" layer="25" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.2" size="0.25" layer="27" font="vector" ratio="10" rot="SR0" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC1005X35_SMD-0402" urn="urn:adsk.eagle:footprint:2899254/4">
+<description>CHIP, 1 X 0.5 X 0.35 mm body
+&lt;p&gt;CHIP package with body size 1 X 0.5 X 0.35 mm&lt;/p&gt;</description>
+<wire x1="0.525" y1="0.464" x2="-0.525" y2="0.464" width="0.12" layer="21"/>
+<wire x1="0.525" y1="-0.464" x2="-0.525" y2="-0.464" width="0.12" layer="21"/>
+<wire x1="0.525" y1="-0.275" x2="-0.525" y2="-0.275" width="0.12" layer="51"/>
+<wire x1="-0.525" y1="-0.275" x2="-0.525" y2="0.275" width="0.12" layer="51"/>
+<wire x1="-0.525" y1="0.275" x2="0.525" y2="0.275" width="0.12" layer="51"/>
+<wire x1="0.525" y1="0.275" x2="0.525" y2="-0.275" width="0.12" layer="51"/>
+<wire x1="-1" y1="0.6" x2="-1" y2="-0.6" width="0.127" layer="39"/>
+<wire x1="-1" y1="-0.6" x2="1" y2="-0.6" width="0.127" layer="39"/>
+<wire x1="1" y1="-0.6" x2="1" y2="0.6" width="0.127" layer="39"/>
+<wire x1="1" y1="0.6" x2="-1" y2="0.6" width="0.127" layer="39"/>
+<smd name="1" x="-0.4825" y="0" dx="0.5351" dy="0.6" layer="1" thermals="no"/>
+<smd name="2" x="0.4825" y="0" dx="0.5351" dy="0.6" layer="1" thermals="no"/>
+<text x="0" y="0.635" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC2012X60_SMD-0805" urn="urn:adsk.eagle:footprint:3034997/4">
+<description>CHIP, 2 X 1.25 X 0.6 mm body
+&lt;p&gt;CHIP package with body size 2 X 1.25 X 0.6 mm&lt;/p&gt;</description>
+<wire x1="1.05" y1="0.9036" x2="-1.05" y2="0.9036" width="0.12" layer="21"/>
+<wire x1="1.05" y1="-0.9036" x2="-1.05" y2="-0.9036" width="0.12" layer="21"/>
+<wire x1="1.05" y1="-0.675" x2="-1.05" y2="-0.675" width="0.12" layer="51"/>
+<wire x1="-1.05" y1="-0.675" x2="-1.05" y2="0.675" width="0.12" layer="51"/>
+<wire x1="-1.05" y1="0.675" x2="1.05" y2="0.675" width="0.12" layer="51"/>
+<wire x1="1.05" y1="0.675" x2="1.05" y2="-0.675" width="0.12" layer="51"/>
+<wire x1="-1.673" y1="-1" x2="1.673" y2="-1" width="0.127" layer="39"/>
+<wire x1="1.673" y1="-1" x2="1.673" y2="1" width="0.127" layer="39"/>
+<wire x1="1.673" y1="1" x2="-1.673" y2="1" width="0.127" layer="39"/>
+<wire x1="-1.673" y1="1" x2="-1.673" y2="-1" width="0.127" layer="39"/>
+<smd name="1" x="-0.9954" y="0" dx="0.8384" dy="1.3791" layer="1"/>
+<smd name="2" x="0.9954" y="0" dx="0.8384" dy="1.3791" layer="1"/>
+<text x="0" y="1.1" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.1" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC1608X65_SMD-0603" urn="urn:adsk.eagle:footprint:2959475/4">
+<description>CHIP, 1.6 X 0.8 X 0.65 mm body
+&lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.65 mm&lt;/p&gt;</description>
+<wire x1="0.85" y1="0.6786" x2="-0.85" y2="0.6786" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-0.6786" x2="-0.85" y2="-0.6786" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-0.45" x2="-0.85" y2="-0.45" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="-0.45" x2="-0.85" y2="0.45" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="0.45" x2="0.85" y2="0.45" width="0.12" layer="51"/>
+<wire x1="0.85" y1="0.45" x2="0.85" y2="-0.45" width="0.12" layer="51"/>
+<wire x1="-1.5" y1="-0.8" x2="1.5" y2="-0.8" width="0.127" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="1.5" y2="0.8" width="0.127" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="-1.5" y2="0.8" width="0.127" layer="39"/>
+<wire x1="-1.5" y1="0.8" x2="-1.5" y2="-0.8" width="0.127" layer="39"/>
+<smd name="1" x="-0.8204" y="0" dx="0.7884" dy="0.9291" layer="1"/>
+<smd name="2" x="0.8204" y="0" dx="0.7884" dy="0.9291" layer="1"/>
+<text x="0" y="1" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESAD990W55L630D240B" urn="urn:adsk.eagle:footprint:4254583/2">
+<description>AXIAL Resistor, 9.9 mm pitch, 6.3 mm body length, 2.4 mm body diameter
+&lt;p&gt;AXIAL Resistor package with 9.9 mm pitch, 0.55 mm lead diameter, 6.3 mm body length and 2.4 mm body diameter&lt;/p&gt;</description>
+<wire x1="-3.4" y1="1.3" x2="-3.4" y2="-1.3" width="0.12" layer="21"/>
+<wire x1="-3.4" y1="-1.3" x2="3.4" y2="-1.3" width="0.12" layer="21"/>
+<wire x1="3.4" y1="-1.3" x2="3.4" y2="1.3" width="0.12" layer="21"/>
+<wire x1="3.4" y1="1.3" x2="-3.4" y2="1.3" width="0.12" layer="21"/>
+<wire x1="-3.4" y1="0" x2="-4.021" y2="0" width="0.12" layer="21"/>
+<wire x1="3.4" y1="0" x2="4.021" y2="0" width="0.12" layer="21"/>
+<wire x1="3.4" y1="-1.3" x2="-3.4" y2="-1.3" width="0.12" layer="51"/>
+<wire x1="-3.4" y1="-1.3" x2="-3.4" y2="1.3" width="0.12" layer="51"/>
+<wire x1="-3.4" y1="1.3" x2="3.4" y2="1.3" width="0.12" layer="51"/>
+<wire x1="3.4" y1="1.3" x2="3.4" y2="-1.3" width="0.12" layer="51"/>
+<wire x1="-6" y1="-1.4" x2="6" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="6" y1="-1.4" x2="6" y2="1.4" width="0.127" layer="39"/>
+<wire x1="6" y1="1.4" x2="-6" y2="1.4" width="0.127" layer="39"/>
+<wire x1="-6" y1="1.4" x2="-6" y2="-1.4" width="0.127" layer="39"/>
+<pad name="1" x="-4.95" y="0" drill="0.75" diameter="1.35"/>
+<pad name="2" x="4.95" y="0" drill="0.75" diameter="1.35"/>
+<text x="0" y="0.2" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.2" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="RESAD660W45L340D190B" urn="urn:adsk.eagle:package:4254914/1" locally_modified="yes" type="model">
+<description>AXIAL Resistor, 6.6 mm pitch, 3.4 mm body length, 1.9 mm body diameter
+&lt;p&gt;AXIAL Resistor package with 6.6 mm pitch, 0.45 mm lead diameter, 3.4 mm body length and 1.9 mm body diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESAD660W45L340D190B"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1005X35" urn="urn:adsk.eagle:package:2899165/1" locally_modified="yes" type="model">
+<description>CHIP, 1 X 0.5 X 0.35 mm body
+&lt;p&gt;CHIP package with body size 1 X 0.5 X 0.35 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1005X35_SMD-0402"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC2012X60" urn="urn:adsk.eagle:package:3034995/1" locally_modified="yes" type="model">
+<description>CHIP, 2 X 1.25 X 0.6 mm body
+&lt;p&gt;CHIP package with body size 2 X 1.25 X 0.6 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC2012X60_SMD-0805"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1608X65" urn="urn:adsk.eagle:package:2959474/1" locally_modified="yes" type="model">
+<description>CHIP, 1.6 X 0.8 X 0.65 mm body
+&lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.65 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1608X65_SMD-0603"/>
+</packageinstances>
+</package3d>
+<package3d name="RESAD990W55L630D240B" urn="urn:adsk.eagle:package:4254576/1" locally_modified="yes" type="model">
+<description>AXIAL Resistor, 9.9 mm pitch, 6.3 mm body length, 2.4 mm body diameter
+&lt;p&gt;AXIAL Resistor package with 9.9 mm pitch, 0.55 mm lead diameter, 6.3 mm body length and 2.4 mm body diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESAD990W55L630D240B"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="RESISTOR">
+<description>Resistor</description>
+<wire x1="-0.254" y1="-0.889" x2="0.381" y2="0.889" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="0.889" x2="-0.254" y2="-0.889" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-0.889" x2="-0.889" y2="0.889" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="0.889" x2="-1.524" y2="-0.889" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.159" y2="0.889" width="0.2032" layer="94"/>
+<text x="0" y="-1.143" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.1176" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<wire x1="0.381" y1="0.889" x2="1.016" y2="-0.889" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-0.889" x2="1.651" y2="0.889" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="0.889" x2="2.286" y2="-0.889" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-0.889" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="10KΩ" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD-0402_1/16W-5%" package="RESC1005X35_SMD-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2899165/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=YAG1281CT-ND" constant="no"/>
+<attribute name="DISTPN" value="YAG1281CT-ND" constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0402JR-0710KP" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0805_1/8W-5%" package="RESC2012X60_SMD-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3034995/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-10KARCT-ND" constant="no"/>
+<attribute name="DISTPN" value="311-10KARCT-ND" constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0805JR-0710KL" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0603_1/10W-5%" package="RESC1608X65_SMD-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2959474/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-10KGRCT-ND" constant="no"/>
+<attribute name="DISTPN" value="311-10KGRCT-ND" constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603JR-0710KL" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH-207/10_1/4W-5%" package="RESAD990W55L630D240B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4254576/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/throughhole/Yageo_LR_CFR_2013.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=CFR-25JB-52-10K" constant="no"/>
+<attribute name="DISTPN" value="10KQBK-ND" constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="CFR-25JB-52-10K" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH-204/7_1/6W-5%" package="RESAD660W45L340D190B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4254914/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/throughhole/Yageo_LR_CFR_2013.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=CFR-12JB-52-10K" constant="no"/>
+<attribute name="DISTPN" value="10KEBK-ND" constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="CFR-12JB-52-10K" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="_leds">
 <packages>
 <package name="LED_PTH_T-1_3/4_5MM" urn="urn:adsk.eagle:footprint:4254822/1" locally_modified="yes">
 <wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
@@ -628,636 +1266,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="PiB_resistors">
-<packages>
-<package name="RESAD660W45L340D190B" urn="urn:adsk.eagle:footprint:4254915/2">
-<description>AXIAL Resistor, 6.6 mm pitch, 3.4 mm body length, 1.9 mm body diameter
-&lt;p&gt;AXIAL Resistor package with 6.6 mm pitch, 0.45 mm lead diameter, 3.4 mm body length and 1.9 mm body diameter&lt;/p&gt;</description>
-<wire x1="-1.85" y1="1.05" x2="-1.85" y2="-1.05" width="0.12" layer="21"/>
-<wire x1="-1.85" y1="-1.05" x2="1.85" y2="-1.05" width="0.12" layer="21"/>
-<wire x1="1.85" y1="-1.05" x2="1.85" y2="1.05" width="0.12" layer="21"/>
-<wire x1="1.85" y1="1.05" x2="-1.85" y2="1.05" width="0.12" layer="21"/>
-<wire x1="-1.85" y1="0" x2="-2.421" y2="0" width="0.12" layer="21"/>
-<wire x1="1.85" y1="0" x2="2.421" y2="0" width="0.12" layer="21"/>
-<wire x1="1.85" y1="-1.05" x2="-1.85" y2="-1.05" width="0.12" layer="51"/>
-<wire x1="-1.85" y1="-1.05" x2="-1.85" y2="1.05" width="0.12" layer="51"/>
-<wire x1="-1.85" y1="1.05" x2="1.85" y2="1.05" width="0.12" layer="51"/>
-<wire x1="1.85" y1="1.05" x2="1.85" y2="-1.05" width="0.12" layer="51"/>
-<wire x1="-4.1" y1="-1.2" x2="-4.1" y2="1.2" width="0.127" layer="39"/>
-<wire x1="-4.1" y1="1.2" x2="4.1" y2="1.2" width="0.127" layer="39"/>
-<wire x1="4.1" y1="1.2" x2="4.1" y2="-1.2" width="0.127" layer="39"/>
-<wire x1="4.1" y1="-1.2" x2="-4.1" y2="-1.2" width="0.127" layer="39"/>
-<pad name="1" x="-3.3" y="0" drill="0.65" diameter="1.25"/>
-<pad name="2" x="3.3" y="0" drill="0.65" diameter="1.25"/>
-<text x="0" y="0.2" size="0.5" layer="25" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.2" size="0.25" layer="27" font="vector" ratio="10" rot="SR0" align="top-center">&gt;VALUE</text>
-</package>
-<package name="RESC1005X35_SMD-0402" urn="urn:adsk.eagle:footprint:2899254/4">
-<description>CHIP, 1 X 0.5 X 0.35 mm body
-&lt;p&gt;CHIP package with body size 1 X 0.5 X 0.35 mm&lt;/p&gt;</description>
-<wire x1="0.525" y1="0.464" x2="-0.525" y2="0.464" width="0.12" layer="21"/>
-<wire x1="0.525" y1="-0.464" x2="-0.525" y2="-0.464" width="0.12" layer="21"/>
-<wire x1="0.525" y1="-0.275" x2="-0.525" y2="-0.275" width="0.12" layer="51"/>
-<wire x1="-0.525" y1="-0.275" x2="-0.525" y2="0.275" width="0.12" layer="51"/>
-<wire x1="-0.525" y1="0.275" x2="0.525" y2="0.275" width="0.12" layer="51"/>
-<wire x1="0.525" y1="0.275" x2="0.525" y2="-0.275" width="0.12" layer="51"/>
-<wire x1="-1" y1="0.6" x2="-1" y2="-0.6" width="0.127" layer="39"/>
-<wire x1="-1" y1="-0.6" x2="1" y2="-0.6" width="0.127" layer="39"/>
-<wire x1="1" y1="-0.6" x2="1" y2="0.6" width="0.127" layer="39"/>
-<wire x1="1" y1="0.6" x2="-1" y2="0.6" width="0.127" layer="39"/>
-<smd name="1" x="-0.4825" y="0" dx="0.5351" dy="0.6" layer="1" thermals="no"/>
-<smd name="2" x="0.4825" y="0" dx="0.5351" dy="0.6" layer="1" thermals="no"/>
-<text x="0" y="0.635" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
-<package name="RESC2012X60_SMD-0805" urn="urn:adsk.eagle:footprint:3034997/4">
-<description>CHIP, 2 X 1.25 X 0.6 mm body
-&lt;p&gt;CHIP package with body size 2 X 1.25 X 0.6 mm&lt;/p&gt;</description>
-<wire x1="1.05" y1="0.9036" x2="-1.05" y2="0.9036" width="0.12" layer="21"/>
-<wire x1="1.05" y1="-0.9036" x2="-1.05" y2="-0.9036" width="0.12" layer="21"/>
-<wire x1="1.05" y1="-0.675" x2="-1.05" y2="-0.675" width="0.12" layer="51"/>
-<wire x1="-1.05" y1="-0.675" x2="-1.05" y2="0.675" width="0.12" layer="51"/>
-<wire x1="-1.05" y1="0.675" x2="1.05" y2="0.675" width="0.12" layer="51"/>
-<wire x1="1.05" y1="0.675" x2="1.05" y2="-0.675" width="0.12" layer="51"/>
-<wire x1="-1.673" y1="-1" x2="1.673" y2="-1" width="0.127" layer="39"/>
-<wire x1="1.673" y1="-1" x2="1.673" y2="1" width="0.127" layer="39"/>
-<wire x1="1.673" y1="1" x2="-1.673" y2="1" width="0.127" layer="39"/>
-<wire x1="-1.673" y1="1" x2="-1.673" y2="-1" width="0.127" layer="39"/>
-<smd name="1" x="-0.9954" y="0" dx="0.8384" dy="1.3791" layer="1"/>
-<smd name="2" x="0.9954" y="0" dx="0.8384" dy="1.3791" layer="1"/>
-<text x="0" y="1.1" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.1" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
-<package name="RESC1608X65_SMD-0603" urn="urn:adsk.eagle:footprint:2959475/4">
-<description>CHIP, 1.6 X 0.8 X 0.65 mm body
-&lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.65 mm&lt;/p&gt;</description>
-<wire x1="0.85" y1="0.6786" x2="-0.85" y2="0.6786" width="0.12" layer="21"/>
-<wire x1="0.85" y1="-0.6786" x2="-0.85" y2="-0.6786" width="0.12" layer="21"/>
-<wire x1="0.85" y1="-0.45" x2="-0.85" y2="-0.45" width="0.12" layer="51"/>
-<wire x1="-0.85" y1="-0.45" x2="-0.85" y2="0.45" width="0.12" layer="51"/>
-<wire x1="-0.85" y1="0.45" x2="0.85" y2="0.45" width="0.12" layer="51"/>
-<wire x1="0.85" y1="0.45" x2="0.85" y2="-0.45" width="0.12" layer="51"/>
-<wire x1="-1.5" y1="-0.8" x2="1.5" y2="-0.8" width="0.127" layer="39"/>
-<wire x1="1.5" y1="-0.8" x2="1.5" y2="0.8" width="0.127" layer="39"/>
-<wire x1="1.5" y1="0.8" x2="-1.5" y2="0.8" width="0.127" layer="39"/>
-<wire x1="-1.5" y1="0.8" x2="-1.5" y2="-0.8" width="0.127" layer="39"/>
-<smd name="1" x="-0.8204" y="0" dx="0.7884" dy="0.9291" layer="1"/>
-<smd name="2" x="0.8204" y="0" dx="0.7884" dy="0.9291" layer="1"/>
-<text x="0" y="1" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
-<package name="RESAD990W55L630D240B" urn="urn:adsk.eagle:footprint:4254583/2">
-<description>AXIAL Resistor, 9.9 mm pitch, 6.3 mm body length, 2.4 mm body diameter
-&lt;p&gt;AXIAL Resistor package with 9.9 mm pitch, 0.55 mm lead diameter, 6.3 mm body length and 2.4 mm body diameter&lt;/p&gt;</description>
-<wire x1="-3.4" y1="1.3" x2="-3.4" y2="-1.3" width="0.12" layer="21"/>
-<wire x1="-3.4" y1="-1.3" x2="3.4" y2="-1.3" width="0.12" layer="21"/>
-<wire x1="3.4" y1="-1.3" x2="3.4" y2="1.3" width="0.12" layer="21"/>
-<wire x1="3.4" y1="1.3" x2="-3.4" y2="1.3" width="0.12" layer="21"/>
-<wire x1="-3.4" y1="0" x2="-4.021" y2="0" width="0.12" layer="21"/>
-<wire x1="3.4" y1="0" x2="4.021" y2="0" width="0.12" layer="21"/>
-<wire x1="3.4" y1="-1.3" x2="-3.4" y2="-1.3" width="0.12" layer="51"/>
-<wire x1="-3.4" y1="-1.3" x2="-3.4" y2="1.3" width="0.12" layer="51"/>
-<wire x1="-3.4" y1="1.3" x2="3.4" y2="1.3" width="0.12" layer="51"/>
-<wire x1="3.4" y1="1.3" x2="3.4" y2="-1.3" width="0.12" layer="51"/>
-<wire x1="-6" y1="-1.4" x2="6" y2="-1.4" width="0.127" layer="39"/>
-<wire x1="6" y1="-1.4" x2="6" y2="1.4" width="0.127" layer="39"/>
-<wire x1="6" y1="1.4" x2="-6" y2="1.4" width="0.127" layer="39"/>
-<wire x1="-6" y1="1.4" x2="-6" y2="-1.4" width="0.127" layer="39"/>
-<pad name="1" x="-4.95" y="0" drill="0.75" diameter="1.35"/>
-<pad name="2" x="4.95" y="0" drill="0.75" diameter="1.35"/>
-<text x="0" y="0.2" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.2" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="RESAD660W45L340D190B" urn="urn:adsk.eagle:package:4254914/1" locally_modified="yes" type="model">
-<description>AXIAL Resistor, 6.6 mm pitch, 3.4 mm body length, 1.9 mm body diameter
-&lt;p&gt;AXIAL Resistor package with 6.6 mm pitch, 0.45 mm lead diameter, 3.4 mm body length and 1.9 mm body diameter&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="RESAD660W45L340D190B"/>
-</packageinstances>
-</package3d>
-<package3d name="RESC1005X35" urn="urn:adsk.eagle:package:2899165/1" locally_modified="yes" type="model">
-<description>CHIP, 1 X 0.5 X 0.35 mm body
-&lt;p&gt;CHIP package with body size 1 X 0.5 X 0.35 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="RESC1005X35_SMD-0402"/>
-</packageinstances>
-</package3d>
-<package3d name="RESC2012X60" urn="urn:adsk.eagle:package:3034995/1" locally_modified="yes" type="model">
-<description>CHIP, 2 X 1.25 X 0.6 mm body
-&lt;p&gt;CHIP package with body size 2 X 1.25 X 0.6 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="RESC2012X60_SMD-0805"/>
-</packageinstances>
-</package3d>
-<package3d name="RESC1608X65" urn="urn:adsk.eagle:package:2959474/1" locally_modified="yes" type="model">
-<description>CHIP, 1.6 X 0.8 X 0.65 mm body
-&lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.65 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="RESC1608X65_SMD-0603"/>
-</packageinstances>
-</package3d>
-<package3d name="RESAD990W55L630D240B" urn="urn:adsk.eagle:package:4254576/1" locally_modified="yes" type="model">
-<description>AXIAL Resistor, 9.9 mm pitch, 6.3 mm body length, 2.4 mm body diameter
-&lt;p&gt;AXIAL Resistor package with 9.9 mm pitch, 0.55 mm lead diameter, 6.3 mm body length and 2.4 mm body diameter&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="RESAD990W55L630D240B"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="RESISTOR">
-<description>Resistor</description>
-<wire x1="-0.254" y1="-0.889" x2="0.381" y2="0.889" width="0.2032" layer="94"/>
-<wire x1="-0.889" y1="0.889" x2="-0.254" y2="-0.889" width="0.2032" layer="94"/>
-<wire x1="-1.524" y1="-0.889" x2="-0.889" y2="0.889" width="0.2032" layer="94"/>
-<wire x1="-2.159" y1="0.889" x2="-1.524" y2="-0.889" width="0.2032" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.159" y2="0.889" width="0.2032" layer="94"/>
-<text x="0" y="-1.143" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<text x="0" y="1.1176" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<wire x1="0.381" y1="0.889" x2="1.016" y2="-0.889" width="0.2032" layer="94"/>
-<wire x1="1.016" y1="-0.889" x2="1.651" y2="0.889" width="0.2032" layer="94"/>
-<wire x1="1.651" y1="0.889" x2="2.286" y2="-0.889" width="0.2032" layer="94"/>
-<wire x1="2.286" y1="-0.889" x2="2.54" y2="0" width="0.2032" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="10KΩ" prefix="R" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_SMD-0402_1/16W-5%" package="RESC1005X35_SMD-0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2899165/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=YAG1281CT-ND" constant="no"/>
-<attribute name="DISTPN" value="YAG1281CT-ND" constant="no"/>
-<attribute name="MFR" value="Yageo" constant="no"/>
-<attribute name="MPN" value="RC0402JR-0710KP" constant="no"/>
-<attribute name="VALUE" value="10K" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-0805_1/8W-5%" package="RESC2012X60_SMD-0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3034995/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-10KARCT-ND" constant="no"/>
-<attribute name="DISTPN" value="311-10KARCT-ND" constant="no"/>
-<attribute name="MFR" value="Yageo" constant="no"/>
-<attribute name="MPN" value="RC0805JR-0710KL" constant="no"/>
-<attribute name="VALUE" value="10K" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-0603_1/10W-5%" package="RESC1608X65_SMD-0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2959474/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-10KGRCT-ND" constant="no"/>
-<attribute name="DISTPN" value="311-10KGRCT-ND" constant="no"/>
-<attribute name="MFR" value="Yageo" constant="no"/>
-<attribute name="MPN" value="RC0603JR-0710KL" constant="no"/>
-<attribute name="VALUE" value="10K" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_PTH-207/10_1/4W-5%" package="RESAD990W55L630D240B">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4254576/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/throughhole/Yageo_LR_CFR_2013.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=CFR-25JB-52-10K" constant="no"/>
-<attribute name="DISTPN" value="10KQBK-ND" constant="no"/>
-<attribute name="MFR" value="Yageo" constant="no"/>
-<attribute name="MPN" value="CFR-25JB-52-10K" constant="no"/>
-<attribute name="VALUE" value="10K" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_PTH-204/7_1/6W-5%" package="RESAD660W45L340D190B">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4254914/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/throughhole/Yageo_LR_CFR_2013.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=CFR-12JB-52-10K" constant="no"/>
-<attribute name="DISTPN" value="10KEBK-ND" constant="no"/>
-<attribute name="MFR" value="Yageo" constant="no"/>
-<attribute name="MPN" value="CFR-12JB-52-10K" constant="no"/>
-<attribute name="VALUE" value="10K" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="PiB_ic_microcontrollers">
-<packages>
-<package name="SOIC127P599X175-14_SOIC-14" urn="urn:adsk.eagle:footprint:2966437/2">
-<description>14-SOIC, 1.27 mm pitch, 5.995 mm span, 8.645 X 3.895 X 1.75 mm body
-&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 5.995 mm span with body size 8.645 X 3.895 X 1.75 mm&lt;/p&gt;</description>
-<circle x="-2.7239" y="4.4357" radius="0.075" width="0" layer="21"/>
-<wire x1="-1.995" y1="4.4207" x2="1.995" y2="4.4207" width="0.12" layer="21"/>
-<wire x1="-1.995" y1="-4.4207" x2="1.995" y2="-4.4207" width="0.12" layer="21"/>
-<wire x1="1.995" y1="-4.37" x2="-1.995" y2="-4.37" width="0.12" layer="51"/>
-<wire x1="-1.995" y1="-4.37" x2="-1.995" y2="4.37" width="0.12" layer="51"/>
-<wire x1="-1.995" y1="4.37" x2="1.995" y2="4.37" width="0.12" layer="51"/>
-<wire x1="1.995" y1="4.37" x2="1.995" y2="-4.37" width="0.12" layer="51"/>
-<wire x1="-3.9" y1="-4.6" x2="3.9" y2="-4.6" width="0.127" layer="39"/>
-<wire x1="3.9" y1="-4.6" x2="3.9" y2="4.6" width="0.127" layer="39"/>
-<wire x1="3.9" y1="4.6" x2="-3.9" y2="4.6" width="0.127" layer="39"/>
-<wire x1="-3.9" y1="4.6" x2="-3.9" y2="-4.6" width="0.127" layer="39"/>
-<smd name="1" x="-2.4693" y="3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="2" x="-2.4693" y="2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="3" x="-2.4693" y="1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="4" x="-2.4693" y="0" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="5" x="-2.4693" y="-1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="6" x="-2.4693" y="-2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="7" x="-2.4693" y="-3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="8" x="2.4693" y="-3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="9" x="2.4693" y="-2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="10" x="2.4693" y="-1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="11" x="2.4693" y="0" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="12" x="2.4693" y="1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="13" x="2.4693" y="2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="14" x="2.4693" y="3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<text x="0" y="5.1457" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.0557" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOIC127P599X175-14_SOIC-14_NO-SILK" urn="urn:adsk.eagle:footprint:2967724/2">
-<description>14-SOIC, 1.27 mm pitch, 5.995 mm span, 8.645 X 3.895 X 1.75 mm body
-&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 5.995 mm span with body size 8.645 X 3.895 X 1.75 mm&lt;/p&gt;</description>
-<circle x="-2.7239" y="4.4357" radius="0.075" width="0" layer="21"/>
-<wire x1="-1.995" y1="4.4207" x2="1.995" y2="4.4207" width="0.12" layer="51"/>
-<wire x1="-1.995" y1="-4.4207" x2="1.995" y2="-4.4207" width="0.12" layer="51"/>
-<wire x1="1.995" y1="-4.37" x2="-1.995" y2="-4.37" width="0.12" layer="51"/>
-<wire x1="-1.995" y1="-4.37" x2="-1.995" y2="4.37" width="0.12" layer="51"/>
-<wire x1="-1.995" y1="4.37" x2="1.995" y2="4.37" width="0.12" layer="51"/>
-<wire x1="1.995" y1="4.37" x2="1.995" y2="-4.37" width="0.12" layer="51"/>
-<wire x1="-3.9" y1="4.55" x2="-3.9" y2="-4.55" width="0.127" layer="39"/>
-<wire x1="-3.9" y1="-4.55" x2="3.9" y2="-4.55" width="0.127" layer="39"/>
-<wire x1="3.9" y1="-4.55" x2="3.9" y2="4.55" width="0.127" layer="39"/>
-<wire x1="3.9" y1="4.55" x2="-3.9" y2="4.55" width="0.127" layer="39"/>
-<smd name="1" x="-2.4693" y="3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="2" x="-2.4693" y="2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="3" x="-2.4693" y="1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="4" x="-2.4693" y="0" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="5" x="-2.4693" y="-1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="6" x="-2.4693" y="-2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="7" x="-2.4693" y="-3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="8" x="2.4693" y="-3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="9" x="2.4693" y="-2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="10" x="2.4693" y="-1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="11" x="2.4693" y="0" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="12" x="2.4693" y="1.27" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="13" x="2.4693" y="2.54" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<smd name="14" x="2.4693" y="3.81" dx="1.9671" dy="0.5935" layer="1" thermals="no"/>
-<text x="0" y="5.1457" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.0557" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
-<package name="DIP793W45P254L1919H533Q14B_DIP-14_ATTINY-X4" urn="urn:adsk.eagle:footprint:3660576/1" locally_modified="yes">
-<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.9375 mm (0.31 in) span, 19.192 X 6.604 X 5.334 mm body
-&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.9375 mm (0.31 in) span with body size 19.192 X 6.604 X 5.334 mm&lt;/p&gt;</description>
-<circle x="-4.1304" y="8.8601" radius="0.25" width="0" layer="21"/>
-<wire x1="-3.556" y1="8.6101" x2="-3.556" y2="9.8425" width="0.12" layer="21"/>
-<wire x1="-3.556" y1="9.8425" x2="3.556" y2="9.8425" width="0.12" layer="21"/>
-<wire x1="3.556" y1="9.8425" x2="3.556" y2="8.6101" width="0.12" layer="21"/>
-<wire x1="-3.556" y1="-8.6101" x2="-3.556" y2="-9.8425" width="0.12" layer="21"/>
-<wire x1="-3.556" y1="-9.8425" x2="3.556" y2="-9.8425" width="0.12" layer="21"/>
-<wire x1="3.556" y1="-9.8425" x2="3.556" y2="-8.6101" width="0.12" layer="21"/>
-<wire x1="3.556" y1="-9.8425" x2="-3.556" y2="-9.8425" width="0.12" layer="51"/>
-<wire x1="-3.556" y1="-9.8425" x2="-3.556" y2="9.8425" width="0.12" layer="51"/>
-<wire x1="-3.556" y1="9.8425" x2="3.556" y2="9.8425" width="0.12" layer="51"/>
-<wire x1="3.556" y1="9.8425" x2="3.556" y2="-9.8425" width="0.12" layer="51"/>
-<pad name="1" x="-3.9688" y="7.62" drill="0.7361" diameter="1.4722"/>
-<pad name="2" x="-3.9688" y="5.08" drill="0.7361" diameter="1.4722"/>
-<pad name="3" x="-3.9688" y="2.54" drill="0.7361" diameter="1.4722"/>
-<pad name="4" x="-3.9688" y="0" drill="0.7361" diameter="1.4722"/>
-<pad name="5" x="-3.9688" y="-2.54" drill="0.7361" diameter="1.4722"/>
-<pad name="6" x="-3.9688" y="-5.08" drill="0.7361" diameter="1.4722"/>
-<pad name="7" x="-3.9688" y="-7.62" drill="0.7361" diameter="1.4722"/>
-<pad name="8" x="3.9688" y="-7.62" drill="0.7361" diameter="1.4722"/>
-<pad name="9" x="3.9688" y="-5.08" drill="0.7361" diameter="1.4722"/>
-<pad name="10" x="3.9688" y="-2.54" drill="0.7361" diameter="1.4722"/>
-<pad name="11" x="3.9688" y="0" drill="0.7361" diameter="1.4722"/>
-<pad name="12" x="3.9688" y="2.54" drill="0.7361" diameter="1.4722"/>
-<pad name="13" x="3.9688" y="5.08" drill="0.7361" diameter="1.4722"/>
-<pad name="14" x="3.9688" y="7.62" drill="0.7361" diameter="1.4722"/>
-<text x="0" y="10.4775" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.4775" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="DIP794W46P254L1919H533Q14B" urn="urn:adsk.eagle:footprint:3660579/1">
-<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 19.19 X 6.605 X 5.33 mm body
-&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 19.19 X 6.605 X 5.33 mm&lt;/p&gt;</description>
-<circle x="-4.1318" y="8.8625" radius="0.25" width="0" layer="21"/>
-<wire x1="-3.555" y1="8.6125" x2="-3.555" y2="9.84" width="0.12" layer="21"/>
-<wire x1="-3.555" y1="9.84" x2="3.555" y2="9.84" width="0.12" layer="21"/>
-<wire x1="3.555" y1="9.84" x2="3.555" y2="8.6125" width="0.12" layer="21"/>
-<wire x1="-3.555" y1="-8.6125" x2="-3.555" y2="-9.84" width="0.12" layer="21"/>
-<wire x1="-3.555" y1="-9.84" x2="3.555" y2="-9.84" width="0.12" layer="21"/>
-<wire x1="3.555" y1="-9.84" x2="3.555" y2="-8.6125" width="0.12" layer="21"/>
-<wire x1="3.555" y1="-9.84" x2="-3.555" y2="-9.84" width="0.12" layer="51"/>
-<wire x1="-3.555" y1="-9.84" x2="-3.555" y2="9.84" width="0.12" layer="51"/>
-<wire x1="-3.555" y1="9.84" x2="3.555" y2="9.84" width="0.12" layer="51"/>
-<wire x1="3.555" y1="9.84" x2="3.555" y2="-9.84" width="0.12" layer="51"/>
-<pad name="1" x="-3.97" y="7.62" drill="0.7385" diameter="1.477"/>
-<pad name="2" x="-3.97" y="5.08" drill="0.7385" diameter="1.477"/>
-<pad name="3" x="-3.97" y="2.54" drill="0.7385" diameter="1.477"/>
-<pad name="4" x="-3.97" y="0" drill="0.7385" diameter="1.477"/>
-<pad name="5" x="-3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
-<pad name="6" x="-3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
-<pad name="7" x="-3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
-<pad name="8" x="3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
-<pad name="9" x="3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
-<pad name="10" x="3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
-<pad name="11" x="3.97" y="0" drill="0.7385" diameter="1.477"/>
-<pad name="12" x="3.97" y="2.54" drill="0.7385" diameter="1.477"/>
-<pad name="13" x="3.97" y="5.08" drill="0.7385" diameter="1.477"/>
-<pad name="14" x="3.97" y="7.62" drill="0.7385" diameter="1.477"/>
-<text x="0" y="10.475" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.475" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="DIP794W46P254L1919H533Q14B_DIP-14_CONNECTOR" urn="urn:adsk.eagle:footprint:3660579/1" locally_modified="yes">
-<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 19.19 X 6.605 X 5.33 mm body
-&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 19.19 X 6.605 X 5.33 mm&lt;/p&gt;</description>
-<circle x="-4.1318" y="9.8625" radius="0.25" width="0" layer="21"/>
-<wire x1="3.555" y1="-9.84" x2="-3.555" y2="-9.84" width="0.12" layer="51"/>
-<wire x1="-3.555" y1="-9.84" x2="-3.555" y2="9.84" width="0.12" layer="51"/>
-<wire x1="-3.555" y1="9.84" x2="-1" y2="9.84" width="0.12" layer="51"/>
-<wire x1="1" y1="9.84" x2="3.555" y2="9.84" width="0.12" layer="51"/>
-<wire x1="3.555" y1="9.84" x2="3.555" y2="-9.84" width="0.12" layer="51"/>
-<pad name="1" x="-3.97" y="7.62" drill="0.7385" diameter="1.477"/>
-<pad name="2" x="-3.97" y="5.08" drill="0.7385" diameter="1.477"/>
-<pad name="3" x="-3.97" y="2.54" drill="0.7385" diameter="1.477"/>
-<pad name="4" x="-3.97" y="0" drill="0.7385" diameter="1.477"/>
-<pad name="5" x="-3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
-<pad name="6" x="-3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
-<pad name="7" x="-3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
-<pad name="8" x="3.97" y="-7.62" drill="0.7385" diameter="1.477"/>
-<pad name="9" x="3.97" y="-5.08" drill="0.7385" diameter="1.477"/>
-<pad name="10" x="3.97" y="-2.54" drill="0.7385" diameter="1.477"/>
-<pad name="11" x="3.97" y="0" drill="0.7385" diameter="1.477"/>
-<pad name="12" x="3.97" y="2.54" drill="0.7385" diameter="1.477"/>
-<pad name="13" x="3.97" y="5.08" drill="0.7385" diameter="1.477"/>
-<pad name="14" x="3.97" y="7.62" drill="0.7385" diameter="1.477"/>
-<text x="0" y="9.184" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-9.2" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-5.08" y1="8.89" x2="-5.08" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-8.89" x2="5.08" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-8.89" x2="5.08" y2="8.89" width="0.127" layer="21"/>
-<wire x1="5.08" y1="8.89" x2="1" y2="8.89" width="0.127" layer="21"/>
-<wire x1="-1" y1="8.89" x2="-5.08" y2="8.89" width="0.127" layer="21"/>
-<wire x1="0" y1="8" x2="-1" y2="8.89" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="8" x2="1" y2="8.89" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="9" x2="-1" y2="9.84" width="0.12" layer="51" curve="-90"/>
-<wire x1="0" y1="9" x2="1" y2="9.84" width="0.12" layer="51" curve="90"/>
-<wire x1="-5.3" y1="9.1" x2="-5.3" y2="-9.1" width="0.127" layer="39"/>
-<wire x1="-5.3" y1="-9.1" x2="5.3" y2="-9.1" width="0.127" layer="39"/>
-<wire x1="5.3" y1="-9.1" x2="5.3" y2="9.1" width="0.127" layer="39"/>
-<wire x1="5.3" y1="9.1" x2="-5.3" y2="9.1" width="0.127" layer="39"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOIC127P599X175-14" urn="urn:adsk.eagle:package:2966431/1" locally_modified="yes" type="model">
-<description>14-SOIC, 1.27 mm pitch, 5.995 mm span, 8.645 X 3.895 X 1.75 mm body
-&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 5.995 mm span with body size 8.645 X 3.895 X 1.75 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOIC127P599X175-14_SOIC-14"/>
-</packageinstances>
-</package3d>
-<package3d name="SOIC127P599X175-14" urn="urn:adsk.eagle:package:2967721/1" locally_modified="yes" type="model">
-<description>14-SOIC, 1.27 mm pitch, 5.995 mm span, 8.645 X 3.895 X 1.75 mm body
-&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 5.995 mm span with body size 8.645 X 3.895 X 1.75 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOIC127P599X175-14_SOIC-14_NO-SILK"/>
-</packageinstances>
-</package3d>
-<package3d name="DIP793W45P254L1919H533Q14B" urn="urn:adsk.eagle:package:3660575/1" locally_modified="yes" type="model">
-<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.9375 mm (0.31 in) span, 19.192 X 6.604 X 5.334 mm body
-&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.9375 mm (0.31 in) span with body size 19.192 X 6.604 X 5.334 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="DIP793W45P254L1919H533Q14B_DIP-14_ATTINY-X4"/>
-</packageinstances>
-</package3d>
-<package3d name="DIP794W46P254L1919H533Q14B" urn="urn:adsk.eagle:package:3660578/2" locally_modified="yes" type="model">
-<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 19.19 X 6.605 X 5.33 mm body
-&lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 19.19 X 6.605 X 5.33 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="DIP794W46P254L1919H533Q14B"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="ATTINYX4">
-<wire x1="-33.02" y1="17.78" x2="-33.02" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-33.02" y1="-17.78" x2="33.02" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-17.78" x2="33.02" y2="17.78" width="0.254" layer="94"/>
-<wire x1="33.02" y1="17.78" x2="-33.02" y2="17.78" width="0.254" layer="94"/>
-<pin name="VCC" x="-35.56" y="15.24" length="short" direction="pas"/>
-<pin name="GND" x="-35.56" y="-15.24" length="short" direction="pas"/>
-<pin name="(ADC0/AREF/PCINT0/D10-A0)PA0" x="35.56" y="15.24" length="short" rot="R180"/>
-<pin name="(ADC1/AIN0/PCINT1/D9-A1)PA1" x="35.56" y="12.7" length="short" rot="R180"/>
-<pin name="(ADC2/AIN1/PCINT2/D8-A2)PA2" x="35.56" y="10.16" length="short" rot="R180"/>
-<pin name="(ADC3/T0/PCINT3/D7-A3)PA3" x="35.56" y="7.62" length="short" rot="R180"/>
-<pin name="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" x="35.56" y="5.08" length="short" rot="R180"/>
-<pin name="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" x="35.56" y="2.54" length="short" rot="R180"/>
-<pin name="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" x="35.56" y="0" length="short" rot="R180"/>
-<pin name="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" x="35.56" y="-2.54" length="short" rot="R180"/>
-<pin name="(PCINT8/XTAL1/CLKI/D0)PB0" x="35.56" y="-7.62" length="short" rot="R180"/>
-<pin name="(PCINT9/XTAL2/D1)PB1" x="35.56" y="-10.16" length="short" rot="R180"/>
-<pin name="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" x="35.56" y="-12.7" length="short" rot="R180"/>
-<pin name="(PCINT11/!RESET!/DW/D11)PB3" x="35.56" y="-15.24" length="short" rot="R180"/>
-<text x="0" y="-18.288" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<text x="0" y="18.288" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ATTINY-X4" prefix="MCU" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="ATTINYX4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_SOIC-14" package="SOIC127P599X175-14_SOIC-14">
-<connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
-<connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
-<connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
-<connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
-<connect gate="G$1" pin="GND" pad="14"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2966431/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY84A-SSU-ND" constant="no"/>
-<attribute name="DISTPN" value="ATTINY84A-SSU-ND" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATTINY84A-SSU" constant="no"/>
-<attribute name="VALUE" value="ATtiny84" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SOIC-14_NO_SILK" package="SOIC127P599X175-14_SOIC-14_NO-SILK">
-<connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
-<connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
-<connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
-<connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
-<connect gate="G$1" pin="GND" pad="14"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2967721/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY84A-SSU-ND" constant="no"/>
-<attribute name="DISTPN" value="ATTINY84A-SSU-ND" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATTINY84A-SSU" constant="no"/>
-<attribute name="VALUE" value="ATtiny84" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_DIP-14_ATTINY-84" package="DIP793W45P254L1919H533Q14B_DIP-14_ATTINY-X4">
-<connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
-<connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
-<connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
-<connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
-<connect gate="G$1" pin="GND" pad="14"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3660575/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590190" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY84A-PU-ND" constant="no"/>
-<attribute name="DISTPN" value="ATTINY84A-PU-ND" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATTINY84A-PU" constant="no"/>
-<attribute name="VALUE" value="ATtiny84" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_DIP-14_ATTINY-84_CONNECTOR" package="DIP794W46P254L1919H533Q14B_DIP-14_CONNECTOR">
-<connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
-<connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
-<connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
-<connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
-<connect gate="G$1" pin="GND" pad="14"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3660578/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="ATTINY24A,44A,84A Complete" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY84A-PU-ND" constant="no"/>
-<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=AE9989-ND" constant="no"/>
-<attribute name="DISTPN" value="ATTINY84A-PU-ND" constant="no"/>
-<attribute name="DISTPN_CONNECTOR" value="AE9989-ND" constant="no"/>
-<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
-<attribute name="MPN" value="ATTINY84A-PU" constant="no"/>
-<attribute name="MPN_CONNECTOR" value="A 14-LC-TT" constant="no"/>
-<attribute name="VALUE" value="ATtiny84" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1268,16 +1276,16 @@
 </class>
 </classes>
 <parts>
-<part name="SUPPLY1" library="PiB_power_symbols" deviceset="GND" device="">
+<part name="SUPPLY1" library="_power_symbols" deviceset="GND" device="">
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
-<part name="SUPPLY4" library="PiB_power_symbols" deviceset="3.3V" device="">
+<part name="SUPPLY4" library="_power_symbols" deviceset="3.3V" device="">
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
-<part name="LED1" library="PiB_leds" deviceset="LED" device="_PTH_T-1_3/4_5MM_NO-COLOR" package3d_urn="urn:adsk.eagle:package:4254847/2"/>
-<part name="R1" library="PiB_resistors" deviceset="10KΩ" device="_PTH-204/7_1/6W-5%" package3d_urn="urn:adsk.eagle:package:4254914/1" value="10K"/>
-<part name="SUPPLY2" library="PiB_power_symbols" deviceset="GND" device=""/>
-<part name="MCU1" library="PiB_ic_microcontrollers" deviceset="ATTINY-X4" device="_DIP-14_ATTINY-84" package3d_urn="urn:adsk.eagle:package:3660575/1" value="ATtiny84"/>
+<part name="LED1" library="_leds" deviceset="LED" device="_PTH_T-1_3/4_5MM_NO-COLOR" package3d_urn="urn:adsk.eagle:package:4254847/2"/>
+<part name="R1" library="_resistors" deviceset="10KΩ" device="_PTH-204/7_1/6W-5%" package3d_urn="urn:adsk.eagle:package:4254914/1" value="10K"/>
+<part name="SUPPLY2" library="_power_symbols" deviceset="GND" device=""/>
+<part name="MCU1" library="_ic_microcontrollers" deviceset="ATTINY-X4" device="_DIP-14_ATTINY-84_CONNECTOR" package3d_urn="urn:adsk.eagle:package:3660578/2" value="ATtiny84"/>
 </parts>
 <sheets>
 <sheet>

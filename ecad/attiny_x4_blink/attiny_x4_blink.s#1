@@ -1296,7 +1296,7 @@
 </instance>
 <instance part="SUPPLY2" gate="GND" x="93.98" y="2.54" smashed="yes"/>
 <instance part="MCU1" gate="G$1" x="50.8" y="30.48" smashed="yes">
-<attribute name="VALUE" x="50.8" y="12.192" size="1.27" layer="96" font="vector" ratio="10" align="top-center"/>
+<attribute name="VALUE" x="50.8" y="12.192" size="0.635" layer="96" font="vector" ratio="10" align="top-center"/>
 <attribute name="NAME" x="50.8" y="48.768" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center"/>
 </instance>
 </instances>
